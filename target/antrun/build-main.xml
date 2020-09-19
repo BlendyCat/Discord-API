@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="C:\Users\evanm\IdeaProjects\Discord-API\target/Discord-API.jar" todir="C:\Users\evanm\Desktop\bungee\proxy\plugins"/>
+  <copy file="C:\Users\evanm\IdeaProjects\Discord-API\target/Discord-API.jar" todir="C:\Users\evanm\Desktop\bungee\server1\plugins"/>
+  <copy file="C:\Users\evanm\IdeaProjects\Discord-API\target/Discord-API.jar" todir="C:\Users\evanm\Desktop\bungee\server2\plugins"/>
+</target>
+</project>

@@ -1,0 +1,37 @@
+# +----------------------------+
+# | Discord API Configuration  |
+# +----------------------------+
+
+# The ID of the server
+server-id: ''
+# enable this if you're using Bungeecord and this plugin is installed on the proxy
+# (If the plugin is running on multiple servers with the same configuration without a proxy, you will run into issues)
+bungeecord: false
+# Authentication token
+token: ''
+# Change the nickname of the user on the discord server to match the in game name
+enforce-nickname: false
+# Channels configuration
+channels:
+  server-chat:
+    # The ID of the channel (Right click on the channel and Click "Copy ID")
+    channel-id: ''
+    # The ID of the Webhook for the channel where the messages should be sent
+    webhook-id: ''
+    # The token of the Webhook for the channel (Used for authentication)
+    webhook-token: ''
+    # Whether chat should be shown in the message
+    enable-chat: true
+    # Info messages
+    enable-info: true
+    # Whether the Discord user needs to be verified to send messages here
+    require-verification: true
+    # Whether admins should be allowed to enter admin commands here
+    enable-admin-commands: false
+# The discord roles which should be used
+roles:
+  # This discord role will be given automatically when a user is verified
+  default: ''
+# Run these commands on certain API events
+commands:
+  onverify: []

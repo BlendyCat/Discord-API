@@ -1,0 +1,20 @@
+name: Discord-API
+main: com.blendycat.discordapi.API
+version: 0.0.2
+commands:
+  verify:
+    description: Used to link discord account and Minecraft account
+    usage: /<command> <token>
+  unlink:
+    description: Unlink Minecraft account from Discord Account
+    usage: /<command>
+  user:
+    description: test
+    usage: /<command> <username>
+  discorddm:
+    description: Used to send a direct message to a Discord user
+    usage: /<command> <user> <message>
+    aliases: [ddm, dm]
+  test:
+    description: Test
+    usage: /<command>

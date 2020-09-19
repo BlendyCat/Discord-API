@@ -1,0 +1,4 @@
+name: Discord-API
+main: com.blendycat.discordapi.BungeeProxy
+version: 0.0.1
+author: Evan Merz
